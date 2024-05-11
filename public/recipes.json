@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Dairy-Free Pancakes",
+      "description": "Delicious pancakes without milk.",
+      "tags": ["dairy-free", "breakfast"],
+      "image": "pancakes.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Gluten-Free Cookies",
+      "description": "Tasty cookies, completely gluten-free.",
+      "tags": ["gluten-free", "sweets"],
+      "image": "cookies.jpg"
+    }
+  ]
+  
