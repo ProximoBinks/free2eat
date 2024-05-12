@@ -6,7 +6,7 @@ import Footer from '../../components/Footer';
 import Link from 'next/link';
 
 export async function getStaticPaths() {
-    const res = await fetch('http://localhost:3000/recipes.json'); // Adjust URL accordingly
+    const res = await fetch('https://free2eat.netlify.app/recipes.json'); // Adjust URL accordingly
     const recipes = await res.json();
     const paths = recipes.map(recipe => ({
         params: { id: recipe.id.toString() },
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const res = await fetch('http://localhost:3000/recipes.json');
+    const res = await fetch('https://free2eat.netlify.app/recipes.json');
     const recipes = await res.json();
     const recipe = recipes.find(r => r.id.toString() === params.id);
 
