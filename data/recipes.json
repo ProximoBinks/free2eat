@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Dairy-Free Pancakes",
+    "description": "Delicious pancakes without milk.",
+    "tags": ["dairy-free", "breakfast"],
+    "image": "pancakes.jpg",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "2 tablespoons sugar",
+      "1 tablespoon baking powder",
+      "1/2 teaspoon salt",
+      "1 cup almond milk",
+      "2 tablespoons vegetable oil",
+      "1 teaspoon vanilla extract"
+    ],
+    "instructions": [
+      "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+      "Add almond milk, vegetable oil, and vanilla extract, whisking until smooth.",
+      "Heat a lightly oiled griddle over medium-high heat.",
+      "Pour 1/4 cup of batter for each pancake onto the griddle.",
+      "Cook until bubbles form and edges are dry, about 2-3 minutes per side."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Gluten-Free Cookies",
+    "description": "Tasty cookies, completely gluten-free.",
+    "tags": ["gluten-free", "sweets"],
+    "image": "cookies.jpg",
+    "ingredients": [
+      "2 cups gluten-free flour blend",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup sugar",
+      "3/4 cup brown sugar",
+      "2 eggs",
+      "2 teaspoons vanilla extract",
+      "1 cup chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375 degrees Fahrenheit.",
+      "In a bowl, mix flour, baking soda, and salt.",
+      "In another bowl, cream together butter, sugar, and brown sugar.",
+      "Beat in eggs and vanilla until smooth.",
+      "Gradually add flour mixture, mixing well. Stir in chocolate chips.",
+      "Drop by rounded spoonfuls onto ungreased cookie sheets.",
+      "Bake for 9-11 minutes or until golden brown."
+    ]
+  }
+]

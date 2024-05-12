@@ -44,11 +44,3 @@ code {
   cursor: pointer;
   font-weight: bold;
 }
-header, footer {
-  position: sticky;
-  top: 0;
-  z-index: 50; /* Ensures it stays on top of other content */
-}
-footer {
-  bottom: 0;
-}

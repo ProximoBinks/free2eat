@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SearchBar from '../components/SearchBar';
 import RecipeList from '../components/RecipeList';
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           ) : <RecipeList searchQuery={searchQuery} selectedTags={tags} />}
         </main>
-        <NavBar />
+        {/* <NavBar /> */}
         <Footer />
       </div>
     </div>

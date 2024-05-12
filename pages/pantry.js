@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SearchBar from '../components/SearchBar';
 import TagList from '../components/TagList';
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -23,7 +23,7 @@ export default function Pantry() {
                     <Link href="/"><span className="bg-blue-500 text-white py-1 px-2 rounded-lg font-bold">&lt; Back</span></Link>
                     <TagList filter={tagSearch} />
                 </main>
-                <NavBar />
+                {/* <NavBar /> */}
                 <Footer />
             </div>
         </div>
