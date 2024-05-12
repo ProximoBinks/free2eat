@@ -3,20 +3,20 @@
     "id": 1,
     "title": "Dairy-Free Pancakes",
     "description": "Delicious pancakes without milk.",
-    "tags": ["dairy-free", "breakfast"],
+    "tags": ["dairy-free", "breakfast","egg-free", "vegan", "nut-free","sesame-free"],
     "image": "pancakes.jpg",
     "ingredients": [
       "1 cup all-purpose flour",
       "2 tablespoons sugar",
       "1 tablespoon baking powder",
       "1/2 teaspoon salt",
-      "1 cup almond milk",
+      "1 cup non-dairy milk (almond, soy, rice, oat)",
       "2 tablespoons vegetable oil",
       "1 teaspoon vanilla extract"
     ],
     "instructions": [
       "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
-      "Add almond milk, vegetable oil, and vanilla extract, whisking until smooth.",
+      "Add milk, vegetable oil, and vanilla extract, whisking until smooth.",
       "Heat a lightly oiled griddle over medium-high heat.",
       "Pour 1/4 cup of batter for each pancake onto the griddle.",
       "Cook until bubbles form and edges are dry, about 2-3 minutes per side."
@@ -26,13 +26,13 @@
     "id": 2,
     "title": "Gluten-Free Cookies",
     "description": "Tasty cookies, completely gluten-free.",
-    "tags": ["gluten-free", "sweets"],
+    "tags": ["gluten-free", "sweets", "dairy-free"],
     "image": "cookies.jpg",
     "ingredients": [
       "2 cups gluten-free flour blend",
       "1 teaspoon baking soda",
       "1/2 teaspoon salt",
-      "1 cup unsalted butter, softened",
+      "1 cup unsalted butter, softened, or non-dairy butter (Nuttelex)",
       "3/4 cup sugar",
       "3/4 cup brown sugar",
       "2 eggs",
@@ -47,6 +47,113 @@
       "Gradually add flour mixture, mixing well. Stir in chocolate chips.",
       "Drop by rounded spoonfuls onto ungreased cookie sheets.",
       "Bake for 9-11 minutes or until golden brown."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vegan Movie Night Choc Chip Pretzel Cookies",
+    "description": "These cookies mix sweet chocolate chips with salty pretzels in a delightful vegan treat perfect for movie nights.",
+    "tags": ["vegan", "sweets", "nut-free", "dairy-free", "sesame-free", "egg-free", "gluten-free"],
+    "image": "vegan_choc_chip_pretzel_cookies.jpg",
+    "ingredients": [
+      "Caster or granulated sugar 70g",
+      "Light brown sugar 120g",
+      "Vegetable or sunflower oil 110ml",
+      "Non-dairy milk 4 tbsp (soy, oat, almond, rice)",
+      "Vanilla extract 1-2 tsp",
+      "Plain all-purpose flour 220g",
+      "Baking powder 1 tsp",
+      "Baking soda ½ tsp",
+      "Pinch of salt",
+      "Non-dairy chocolate 100g (chips, chunks, chopped up chocolate bar)",
+      "1/2 cup chopped pretzels"
+    ],
+    "instructions": [
+      "Combine sugars, oil, non-dairy milk, and vanilla in a bowl, whisking until well mixed.",
+      "Gradually sift in flour, baking powder, baking soda, and salt, ensuring no clumps remain.",
+      "Incorporate chopped pretzels and stir in most of the chocolate, reserving some for topping.",
+      "Portion the dough on a lined baking sheet and refrigerate for at least an hour.",
+      "Preheat oven to 180 ºC, line a baking sheet with parchment paper.",
+      "Arrange dough with space for spreading, bake for 10-12 minutes.",
+      "Allow to cool before serving. Store in a cool, dry place."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Classic Shepherd’s Pie",
+    "description": "A comforting and hearty dish featuring a savory lamb mince filling topped with a golden crust.",
+    "tags": ["family-dinner", "gluten-free", "dairy-free", "nut-free", "sesame-free", "egg-free", "dinner"],
+    "image": "classic_shepherds_pie.webp",
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 brown onion, finely chopped",
+      "1 carrot, finely chopped",
+      "2 celery sticks, finely chopped",
+      "1 tbsp tomato paste",
+      "1 tbsp Worcestershire sauce",
+      "500g lamb mince",
+      "Salt and black pepper",
+      "2 tbsp plain flour (or gluten-free flour)",
+      "500ml beef stock (or gluten-free stock)",
+      "1 bay leaf"
+    ],
+    "instructions": [
+      "Heat oil in a large saucepan, sauté carrots, onions, and celery until soft.",
+      "Add lamb mince, cook while breaking up lumps, then add flour and stir.",
+      "Mix in beef stock, bay leaf, Worcestershire sauce, and tomato paste, bring to a boil.",
+      "Simmer for 30 minutes until thick, season, and either cover with pastry or mashed potatoes.",
+      "Bake at 200ºC for 20 minutes until golden."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vegan Buttery Soft Pretzels",
+    "description": "These vegan pretzels are soft, buttery, and perfect for snacking with a classic twist and rock salt topping.",
+    "tags": ["vegan", "snack", "nut-free"],
+    "image": "vegan_soft_pretzels.jpg",
+    "ingredients": [
+      "3 tablespoons white sugar",
+      "2 ¼ teaspoons active dry yeast",
+      "1 cup warm water",
+      "2 ½ cups all-purpose flour",
+      "1 tablespoon melted vegan butter (more for greasing)",
+      "4 cups hot water for bath",
+      "¼ cup baking soda for bath",
+      "1-2 tablespoons rock salt",
+      "Extra melted vegan butter for garnish"
+    ],
+    "instructions": [
+      "Whisk sugar and yeast, add warm water, let rest until foamy.",
+      "Add flour and melted butter, stir to form a dough, knead until smooth.",
+      "Let dough rise in a warm spot until doubled.",
+      "Form dough into pretzels, prepare baking soda bath, dip each pretzel.",
+      "Bake at 200°C for 12-15 minutes until golden. Serve with vegan butter or mustard."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sausage Rolls",
+    "description": "Hearty and flavorful sausage rolls made with minced beef, vegetables, and herbs, wrapped in a crispy pastry.",
+    "tags": ["snack", "gluten-free", "dairy-free", "egg-free", "family-friendly"],
+    "image": "sausage_rolls.webp",
+    "ingredients": [
+      "600g mince beef",
+      "½ cup tomato paste",
+      "2 eggs",
+      "½ cup dry breadcrumbs (replacement: gluten-free)",
+      "1-2 whole carrots diced",
+      "¼ cup oregano",
+      "2 sheets puff pastry (replacement: gluten and dairy-free puff pastry)",
+      "Soy milk to brush pastry with"
+    ],
+    "instructions": [
+      "Preheat oven to 200°C.",
+      "Dice the whole carrots.",
+      "Place all ingredients into a bowl and mix together.",
+      "Cut each pastry sheet in half and roll the mixture into a sausage-like shape, place in the middle of the pastry, roll pastry to cover sausage.",
+      "Cut each roll into 4-5 pieces.",
+      "Brush the top of each roll with a little amount of milk.",
+      "Bake for 30-40 minutes until pastry is golden."
     ]
   }
 ]

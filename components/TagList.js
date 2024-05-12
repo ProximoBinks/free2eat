@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const initialTags = ['dairy-free', 'gluten-free', 'nut-free', 'egg-free'];
+const initialTags = ['dairy-free', 'gluten-free', 'nut-free', 'egg-free', 'sesame-free', 'vegan'];
 
 export default function TagList({ filter }) {
     const [selectedTags, setSelectedTags] = useState([]);
