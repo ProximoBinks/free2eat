@@ -40,8 +40,8 @@ export default function RecipePage({ recipe }) {
                 </Head>
                 <Header />
                 <main className="mt-2 flex-grow px-[5%]">
-                    <div className="mt-1 mb-2">
-                        <Link href="/"><span className="bg-blue-500 text-white py-1 px-2 rounded-lg font-bold">&lt; Back</span></Link>
+                    <div className="mt-1 mb-2 sticky top-3">
+                        <Link href="/"><span className="bg-blue-500 text-white py-2 px-2 rounded-3xl font-bold">&lt; Back</span></Link>
                     </div>
                     <h1 className="font-bold">{recipe.title}</h1>
                     <p>{recipe.description}</p>
