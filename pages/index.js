@@ -51,7 +51,7 @@ export default function Home() {
           {(searchQuery === '' && tags.length === 0) ? (
             <div className="text-center mt-20 flex-col flex justify-center items-center">
               <img src="empty-state-icon.png" className="w-[80px] h-[80px] mb-2"></img>
-              <p className="text-[#b1b2b6]">Add your allergies to get<br></br>started</p>
+              <p className="text-[#989899]">Add your allergies to get<br></br>started</p>
               <button className="mt-2 bg-blue-500 text-white py-2 px-4 rounded-lg font-bold" onClick={() => window.location.href = '/pantry'}>
                 add allergies
               </button>
