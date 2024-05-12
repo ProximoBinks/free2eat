@@ -36,7 +36,8 @@ export default function Home() {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="flex flex-col w-full max-w-md mx-auto min-h-screen bg-white shadow-lg">
         <Head>
-          <title>Free2Eat</title>
+          <title>Free2Eat: Allergy-Friendly Recipes at Your Fingertips</title>
+          <meta name="description" content="Discover and explore a wide variety of recipes that cater to specific dietary needs without compromising on taste. Free2Eat helps you find the perfect meals for your dietary restrictions, including dairy-free, gluten-free, and nut-free options." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
