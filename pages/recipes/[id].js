@@ -41,7 +41,7 @@ export default function RecipePage({ recipe }) {
                 <Header />
                 <main className="mt-2 flex-grow px-[5%]">
                     <div className="mt-1 mb-3 sticky top-3">
-                        <Link href="/"><span className="bg-blue-500 text-white py-2 px-3 rounded-3xl font-bold">&lt; Back</span></Link>
+                        <Link href="/"><span className="bg-blue-500 text-white py-2 px-3 rounded-3xl font-[500] hover:bg-blue-800 transition-all">&lt; Back</span></Link>
                     </div>
                     <h1 className="font-bold">{recipe.title}</h1>
                     <p>{recipe.description}</p>
