@@ -1,63 +1,88 @@
-# Next + Netlify Starter
+# Free2Eat
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+A web application for finding allergy-friendly recipes that cater to specific dietary needs without compromising on taste.
 
-This is a [Next.js](https://nextjs.org/) v14 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+**Live Demo:** [https://free2eat.netlify.app/](https://free2eat.netlify.app/)
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
+## About
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+Free2Eat was developed as a Year 12 SACE Assessment Item Folio (AIF) project. The application helps users discover recipes that match their dietary restrictions, including options for dairy-free, gluten-free, nut-free, egg-free, sesame-free, and vegan diets.
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+## Features
 
-## Table of Contents:
+- **Allergy Filtering**: Select multiple dietary restrictions to find suitable recipes
+- **Recipe Search**: Search for recipes by name, description, or ingredients
+- **Mobile-Friendly Design**: Responsive interface optimized for all device sizes
+- **Recipe Details**: View ingredients, instructions, and images for each recipe
+- **Persistent Preferences**: User dietary preferences are saved between sessions
 
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
+## Technologies Used
+
+- **Next.js**: React framework for server-rendered applications
+- **TailwindCSS**: Utility-first CSS framework for styling
+- **LocalStorage**: Browser storage for saving user preferences
+- **Static Data**: JSON-based recipe database
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/free2eat.git
+cd free2eat
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deployment
 
-### Installation options
+This project is configured for deployment on Netlify:
 
-**Option one:** One-click deploy
+```bash
+npm run build
+npm run export
+```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+The static export will be in the `out` directory, ready for deployment.
 
-**Option two:** Manual clone
+## Project Structure
 
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+- `pages/`: Application routes and pages
+- `components/`: Reusable UI components
+- `data/`: Recipe JSON data
+- `public/`: Static assets like images
+- `styles/`: Global CSS styles
 
-## Testing
+## Screenshots
 
-### Included Default Testing
+![Home Page](public/empty-state-icon.png)
+*Home page with allergy filter options*
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+## License
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+This project was created for educational purposes as part of a SACE Assessment Item Folio.
 
-If your team is not interested in this tooling, you can remove them with ease!
+## Acknowledgments
 
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+- Special thanks to all who contributed to the development and testing of this application
+- Recipe images and data are for demonstration purposes only
