@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SearchBar from '../components/SearchBar';
 import RecipeList from '../components/RecipeList';
-// import NavBar from '../components/NavBar';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -11,7 +11,6 @@ export default function Home() {
   const [tags, setTags] = useState([]);
 
   useEffect(() => {
-    // Initialize tags from localStorage on client-side only
     const savedTags = localStorage.getItem('selectedTags');
     if (savedTags) {
       setTags(JSON.parse(savedTags));
@@ -38,7 +37,6 @@ export default function Home() {
         <Head>
           <title>Free2Eat: Allergy-Friendly Recipes at Your Fingertips</title>
           <meta name="description" content="Discover and explore a wide variety of recipes that cater to specific dietary needs without compromising on taste. Free2Eat helps you find the perfect meals for your dietary restrictions, including dairy-free, gluten-free, and nut-free options." />
-          <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
         <main className="mt-2 flex-grow px-[5%]">
@@ -46,20 +44,19 @@ export default function Home() {
           {tags.map(tag => (
             <span key={tag} className="tag bg-blue-500 text-white mr-2 mb-2 inline-flex items-center">
               {tag}
-              <button onClick={() => removeTag(tag)} className="ml-2 text-sm">✕</button>
+              <button type="button" onClick={() => removeTag(tag)} className="ml-2 text-sm" aria-label={`Remove ${tag} filter`}>✕</button>
             </span>
           ))}
           {(searchQuery === '' && tags.length === 0) ? (
             <div className="text-center mt-20 flex-col flex justify-center items-center">
-              <img src="empty-state-icon.png" className="w-[80px] h-[80px] mb-2"></img>
-              <p className="text-[#8e8e8f]">Add your allergies to get<br></br>started</p>
-              <button className="mt-2 bg-blue-500 text-white py-2 px-4 rounded-3xl font-[500] hover:bg-blue-800 transition-all" onClick={() => window.location.href = '/pantry'}>
+              <img src="empty-state-icon.png" className="w-[80px] h-[80px] mb-2" alt="No allergies selected" />
+              <p className="text-[#8e8e8f]">Add your allergies to get<br />started</p>
+              <Link href="/pantry" className="mt-2 bg-blue-500 text-white py-2 px-4 rounded-3xl font-[500] hover:bg-blue-800 transition-all inline-block">
                 add allergies
-              </button>
+              </Link>
             </div>
           ) : <RecipeList searchQuery={searchQuery} selectedTags={tags} />}
         </main>
-        {/* <NavBar /> */}
         <Footer />
       </div>
     </div>
