@@ -12,6 +12,9 @@ export default function Footer() {
         </Link>
       </nav>
       <p className="font-[500] text-sm"><span className="font-bold">&copy;</span> Phoebe Koh 2025</p>
+      <p className="font-normal text-xs text-gray-500 mt-1">
+        <a href="https://hypertools.dev" target="_blank" rel="noopener" className="hover:text-gray-700">Built by HyperTools</a>
+      </p>
     </footer>
   );
 }
